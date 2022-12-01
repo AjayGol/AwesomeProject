@@ -27,7 +27,6 @@ export default function LoginScreen() {
   const navigation: any = useNavigation();
 
   const onPressLogin = () => {
-    navigation.navigate(UserStack.tabBar);
     if (email === '' && password === '') {
       alert('Please enter detail');
     } else if (email === '') {
